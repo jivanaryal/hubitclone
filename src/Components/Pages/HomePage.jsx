@@ -29,7 +29,7 @@ const HomePage = () => {
             {Image.map((val, i) => {
               return (
                 <div key={i}>
-                  <val.image className="p-1  rounded-full  border-2 border-[#A0047D] text-4xl  text-mainColor" />
+                  <val.image className="p-2  rounded-full  border-2 border-[#A0047D] text-4xl  text-mainColor" />
                 </div>
               );
             })}
