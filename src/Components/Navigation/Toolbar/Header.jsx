@@ -4,33 +4,31 @@ import { BiPhoneCall, BiMessageAlt } from "react-icons/bi";
 
 const obj = [
   {
-    title: "Check Cretificate",
+    title: "check cretificate",
   },
   {
-    title: "Career",
+    title: "career",
   },
   {
-    title: "Contact Us",
+    title: "contact us",
   },
   {
-    title: "Download Brocheure",
+    title: "download Brocheure",
   },
   {
-    title: " Hackathons",
+    title: " hackathons",
   },
   {
-    title: "Hire Talents",
+    title: "hire Talents",
   },
   {
-    title: "Testimonials",
+    title: "testimonials",
   },
 ];
 
 const Header = () => {
   return (
-    <div
-      className="text-white h-8  px-28 bg-pink-700 select-none"
-      style={{ backgroundColor: "#a0047d" }}>
+    <div className="text-white h-8  px-28 bg-mainColor select-none">
       <div className="flex justify-between items-center h-8">
         <div className="flex gap-2 text-xs items-center">
           <BiPhoneCall className="text-base" />
