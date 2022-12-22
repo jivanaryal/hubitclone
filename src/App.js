@@ -5,7 +5,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Contact from './Components/Pages/Contact';
 import HomePage from './Components/Pages/HomePage';
 import About from './Components/Pages/About';
-import MapFunction from './bujauniktaharulaii/MapFunction';
+
 
 function App() {
   return (

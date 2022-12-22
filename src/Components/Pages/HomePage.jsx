@@ -22,9 +22,9 @@ const Image = [
 
 const HomePage = () => {
   return (
-    <div>
-      <div className="flex">
-        <div className="w-[40%]  flex flex-col gap-4 ml-28  h-[80vh] justify-center">
+    <div className="bg-yellow-500">
+      <div className="w-10/12 mx-auto grid grid-cols-2">
+        <div className=" bg-red-500 flex flex-wrap flex-col gap-4   h-[80vh] justify-center">
           <div className="flex gap-6">
             {Image.map((val, i) => {
               return (
@@ -55,7 +55,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="flex items-center w-[60%]">
+        <div className="flex items-center  bg-green-500">
           <img src={url} alt="" />
         </div>
       </div>
