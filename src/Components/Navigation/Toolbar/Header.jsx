@@ -28,8 +28,8 @@ const obj = [
 
 const Header = () => {
   return (
-    <div className="text-white h-8  px-28 bg-mainColor select-none">
-      <div className="flex justify-between items-center h-8">
+    <div className="text-white  mx-auto bg-mainColor select-none">
+      <div className="flex  w-11/12 mx-auto flex-wrap justify-between items-center h-8">
         <div className="flex gap-2 text-xs items-center">
           <BiPhoneCall className="text-base" />
           <p>071-532805</p>
