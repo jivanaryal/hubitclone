@@ -4,7 +4,7 @@ import Secondary from "./Secondary";
 
 const index = () => {
   return (
-    <div>
+    <div className="fixed top-0 w-screen h-fit z-20 bg-white">
       <Header />
       <Secondary />
     </div>
