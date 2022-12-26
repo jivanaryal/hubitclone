@@ -29,7 +29,7 @@ const HomePage = () => {
             {Image.map((val, i) => {
               return (
                 <div key={i}>
-                  <val.image className="p-1 text-[#A0047D] rounded-b-full rounded-t-full  border-2 border-[#A0047D] text-3xl  text-mainColor" />
+                  <val.image className="p-1 rounded-b-full rounded-t-full  border-2 border-[#A0047D] text-3xl  text-mainColor" />
                 </div>
               );
             })}
@@ -56,7 +56,7 @@ const HomePage = () => {
         </div>
 
         <div className="flex items-center">
-          <img src={url} alt="" className=" w-full max-h-full" />
+          <img src={url} alt="" className=" w-full max-h-full bg-transparent" />
         </div>
       </div>
     </div>

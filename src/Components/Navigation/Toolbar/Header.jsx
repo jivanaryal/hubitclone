@@ -28,7 +28,7 @@ const obj = [
 
 const Header = () => {
   return (
-    <div className="text-white  mx-auto bg-mainColor select-none">
+    <div className="text-white  mx-auto bg-mainColor select-none lg:block pd:hidden">
       <div className="flex  w-11/12 mx-auto flex-wrap justify-between items-center h-8">
         <div className="flex gap-2 text-xs items-center">
           <BiPhoneCall className="text-base" />

@@ -19,16 +19,15 @@ code {
   overflow-y: scroll;
 }
 .info::-webkit-scrollbar {
-  /* display: e; */
-  width: 30px;
-  /* background-color: red; */
+  width: 20px;
 }
+/* background-color: red; */
+/* }
 .info::-webkit-scrollbar-thumb {
   width: 10px;
   height: 30px;
   /* background-color: green; */
-}
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */

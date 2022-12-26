@@ -32,7 +32,7 @@ const Feature = () => {
                 <val.img className="text-5xl text-mainColor" />
                 <p className="font-bold text-2xl ">{val.title}</p>
               </div>
-              <p className="py-4 text-justify pb-10 overflow-auto scroll-my-16 h-52 hover:bg-transparent info ">
+              <p className="py-4 text-justify pb-10 overflow-auto  h-52 hover:bg-transparent info ">
                 {val.info}
               </p>
             </div>
