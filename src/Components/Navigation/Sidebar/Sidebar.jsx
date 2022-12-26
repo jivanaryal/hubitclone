@@ -12,10 +12,10 @@ const Sidebar = () => {
     setShowIcon(!showicon);
   };
   return (
-    <div className="flex flex-col fixed top-0 left-0 bg-red-400 h-screen z-50">
+    <div className="flex flex-col fixed top-0 left-0 bg-[#374151]  h-screen  z-50">
       <div>
         <RxDragHandleHorizontal
-          className={`fixed  text-5xl  ${
+          className={`fixed pointer-cursor  text-5xl  ${
             showicon === true ? "pd:hidden" : "block"
           }`}
           onClick={() => handleChange()}
@@ -39,7 +39,7 @@ const NavTitle = ({ handleChange }) => {
           <Link to={{ pathname: val.path }}>
             {" "}
             <div key={i}>
-              <p className="capitalize" onClick={handleChange}>
+              <p className="capitalize " onClick={handleChange}>
                 {" "}
                 {val.title}{" "}
               </p>

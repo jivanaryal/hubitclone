@@ -4,12 +4,14 @@ import Sidebar from "../../Components/Navigation/Sidebar";
 // import HomePages from "../../Components/Pages/HomePages";
 
 const Layout = ({ children }) => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   const [size, setSize] = useState(window.innerWidth);
 
   const cleanup = () => {
     setSize(window.innerWidth);
-    if (size <= 1024) {
+    if (size <= 990) {
+      setShow(false);
+    } else if (size > 990) {
       setShow(true);
     }
   };
@@ -21,7 +23,7 @@ const Layout = ({ children }) => {
   });
   return (
     <div>
-      {show ? <Sidebar /> : <Toolbar show={show} setShow={setShow} />}
+      {show ? <Toolbar /> : <Sidebar show={show} setShow={setShow} />}
       <div className="mt-28">{children}</div>
     </div>
   );

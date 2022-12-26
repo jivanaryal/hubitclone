@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Navdata } from "../NavData";
 const url = "https://hubit.com.np/_next/static/media/hubitLogo.14c101fa.svg";
 
 const Secondarry = () => {
-  const [activePage, setActivePage] = useState("home");
+  const location = useLocation();
   return (
     <div className="h-16 border-b-2 shadow-md shadow-gray-400 text-sm bg-white select-none">
       <div className="flex h-16 justify-around  items-center">
@@ -25,11 +25,10 @@ const Secondarry = () => {
                 <Link to={{ pathname: val.path }}>
                   <div
                     className={`capitalize border-white  mr-2 cursor-pointer ${
-                      activePage === val.title
+                      location.pathname === val.path
                         ? "border-b-2 border-mainColor transition-all duration-400 delay-100"
-                        : "border-b-2"
-                    }`}
-                    onClick={() => setActivePage(val.title)}>
+                        : ""
+                    }`}>
                     {val.title}
                   </div>
                 </Link>

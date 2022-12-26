@@ -1,38 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { RxDragHandleHorizontal } from "react-icons/rx";
+import { Navdata } from "../NavData";
 const url = "https://hubit.com.np/_next/static/media/hubitLogo.14c101fa.svg";
-
-const data = [
-  {
-    title: "home",
-    path: "/",
-  },
-
-  {
-    title: "about us",
-    path: "/about",
-  },
-  {
-    title: "contact",
-    path: "/contact",
-  },
-  {
-    title: "placements",
-    path: "/",
-  },
-  {
-    title: "library",
-    path: "/",
-  },
-  {
-    title: "co-operate training",
-  },
-  {
-    title: "notice",
-    path: "/",
-  },
-];
 
 const Secondnav = () => {
   const [show, setShow] = useState(true);
@@ -74,7 +44,7 @@ const Jivan = ({ show, setShow }) => {
         show && ""
       }`}
       style={{ fontSize: "16px" }}>
-      {data.map((val, i) => {
+      {Navdata.map((val, i) => {
         return (
           <div className="flex" key={i}>
             <Link to={{ pathname: val.path }}>

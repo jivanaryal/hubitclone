@@ -10,21 +10,22 @@ export const Navdata = [
   },
   {
     title: "contact",
-    path: "/HomePages/contact",
+    path: "/contact",
   },
   {
     title: "placements",
-    path: "/HomePages/placements",
+    path: "/placements",
   },
   {
     title: "library",
-    path: "/",
+    path: "/library",
   },
   {
     title: "co-operate training",
+    path: "/training",
   },
   {
     title: "notice",
-    path: "/",
+    path: "/notice",
   },
 ];
