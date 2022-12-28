@@ -1,10 +1,11 @@
 import React from "react";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
+import SideBarr from "./SideBarr";
 
 const index = ({ show, setShow }) => {
   return (
     <div>
-      <Sidebar show={show} setShow={setShow} />
+      <SideBarr show={show} setShow={setShow} />
     </div>
   );
 };

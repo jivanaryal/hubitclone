@@ -23,7 +23,7 @@ const Image = [
 const HomePage = () => {
   return (
     <div className="bg-[#FAFAFA]">
-      <div className="w-10/12 mx-auto grid grid-cols-2 pb-4 gap-4">
+      <div className="w-10/12 mx-auto grid lg:grid-cols-2 pd:grid-cols-1 pb-4 gap-4">
         <div className="  flex flex-wrap flex-col gap-4   h-[80vh] justify-center">
           <div className="flex gap-2">
             {Image.map((val, i) => {

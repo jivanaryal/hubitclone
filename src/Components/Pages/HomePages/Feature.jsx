@@ -21,18 +21,18 @@ const data = [
 
 const Feature = () => {
   return (
-    <div className="bg-[#FFFFFF]  pt-10 pb-20">
-      <div className=" w-11/12 mx-auto grid grid-cols-3 h-72">
+    <div className="bg-[#FFFFFF]  pt-10">
+      <div className=" w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 pd:grid-cols-1">
         {data.map((val, i) => {
           return (
             <div
               key={i}
-              className="border-b-4 border-b-transparent  border-r-2 pr-10 pl-5 hover:border-b-4 hover:border-b-mainColor delay-100 duration-700 transition-all  pb-5 ">
+              className="border-b-4 border-b-transparent  border-r-2 pr-10 pl-5 hover:border-b-4 hover:border-b-mainColor delay-100 duration-700 transition-all pb-5 ">
               <div className="flex gap-2">
                 <val.img className="text-5xl text-mainColor" />
-                <p className="font-bold text-2xl ">{val.title}</p>
+                <p className="font-bold text-2xl justify-start ">{val.title}</p>
               </div>
-              <p className="py-4 text-justify pb-10 overflow-auto  h-52 hover:bg-transparent info ">
+              <p className="py-4 text-justify pb-10 overflow-scroll  h-52 hover:bg-transparent info ">
                 {val.info}
               </p>
             </div>
