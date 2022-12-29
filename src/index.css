@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  margin: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -21,13 +21,9 @@ code {
 .info::-webkit-scrollbar {
   width: 20px;
 }
-/* background-color: red; */
-/* }
-.info::-webkit-scrollbar-thumb {
-  width: 10px;
-  height: 30px;
-  /* background-color: green; */
-
-/* body::-webkit-scrollbar {
-  display: none;
-} */
+.information {
+  overflow-y: scroll;
+}
+.information::-webkit-scrollbar {
+  width: 20px;
+}

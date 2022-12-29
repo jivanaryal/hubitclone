@@ -32,22 +32,22 @@ const Welcome = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-2  grid gap-4 grid-cols-4 ">
-          <div className="col-span-2   relative">
+        <div className="col-span-2 grid gap-4 grid-cols-4 bg-red-600  lg:w-full ">
+          <div className="md:col-span-2 pd:col-span-4   relative">
             <img
               src="https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportal.2193f6b1.jpg&w=1920&q=75"
               alt=""
-              className="opacity-80 h-full w-full"
+              className="opacity-80 md:w-full h-full"
             />
           </div>
-          <div className="grid gap-4 col-span-2">
+          <div className="grid gap-4 col-span-2 bg-green-700 ">
             {data.map((val, i) => {
               return (
-                <div key={i}>
+                <div key={i} className="bg-purple-500 ">
                   <img
                     src={val.image}
                     alt=""
-                    className="lg:w-full md:w-full pd:w-20"
+                    className=" bg-yellow-600 lg:w-full md:w-full   pd:full pd:mr-4"
                   />
                 </div>
               );

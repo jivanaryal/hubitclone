@@ -40,7 +40,7 @@ const obj = [
     img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
     title: "Hari Sir",
     author: "teacher",
-    info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
+    info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
     img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
@@ -52,7 +52,7 @@ const obj = [
     img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
     title: "Himal Sir",
     author: "teacher",
-    info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
+    info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
     img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
@@ -98,15 +98,15 @@ const Courses = () => {
         <AiFillRightCircle />
       </div>
       <div className=" w-10/12 mx-auto grid grid-cols-5">
-        <div className="col-span-2 flex h-full flex-col justify-center">
+        <div className="lg:col-span-2 pd:col-span-full flex h-full flex-col justify-center">
           <p className="font-bold text-3xl">Why Choose</p>
           <p className="text-mainColor text-3xl font-bold">HUBIT</p>
         </div>
-        <div className="col-span-3 py-12 justify-center">
-          <div className="grid grid-cols-3 gap-10">
+        <div className="lg:col-span-3 pd:col-span-full py-12 justify-center">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 pd:grid-cols-1 gap-10">
             {data.map((val, i) => {
               return (
-                <div key={i} className="flex flex-col gap-2">
+                <div key={i} className="flex flex-col  gap-2">
                   <val.image className="text-4xl border-2 border-black rounded-full py-1 pb-2 mb-1 mx-auto" />
                   <h2 className="font-bold capitalize">{val.title}</h2>
                   <p className="text-start">{val.info}</p>
@@ -132,19 +132,21 @@ const Courses = () => {
             className="text-5xl text-mainColor"
             onClick={() => decreaseItem(obj)}
           />
-          <div className=" bg-[#E5E7EB] pt-2 pb-6 px-3 rounded-lg ">
+          <div className=" bg-[#E5E7EB] pt-2 pb-6 px-3 rounded-lg">
             <div>
               <div className="flex relative justify-between">
                 <img
                   src={img}
                   alt=""
-                  className="w-16 absolute top-5 left-[-30px] border rounded-full h-16 "
+                  className="w-16 absolute top-5 left-[-30px] border rounded-full h-16  "
                 />
               </div>
               <div className="ml-10">
                 <p>{title}</p>
                 <p>{author}</p>
-                <p>{info}</p>
+                <p className="h-24 overflow-scroll information bg-[#E5E7EB]">
+                  {info}
+                </p>
               </div>
             </div>
           </div>
@@ -163,7 +165,9 @@ const Courses = () => {
               <div className="ml-10">
                 <p>{title}</p>
                 <p>{author}</p>
-                <p>{info}</p>
+                <p className="h-24 overflow-scroll information bg-[#E5E7EB]">
+                  {info}
+                </p>
               </div>
             </div>
           </div>
