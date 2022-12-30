@@ -2,6 +2,8 @@ import React from "react";
 import Courses from "./Courses";
 import Feature from "./Feature";
 import HomePage from "./HomePage";
+import Placements from "./Placements";
+import Sucess from "./Sucess";
 import Welcome from "./Welcome";
 
 const index = () => {
@@ -11,6 +13,8 @@ const index = () => {
       <Feature />
       <Welcome />
       <Courses />
+      <Placements />
+      <Sucess />
     </div>
   );
 };
