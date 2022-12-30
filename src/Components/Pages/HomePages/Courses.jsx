@@ -127,7 +127,7 @@ const Courses = () => {
         </p>
       </div>
       <div className="w-11/12 mx-auto grid grid-cols-5 mt-20 pb-20">
-        <div className="md:col-span-2 pd:col-span-full  lg:flex  pd:block ">
+        <div className="md:col-span-2 pd:col-span-full  lg:block  pd:block ">
           <AiFillLeftCircle
             className="text-5xl text-mainColor"
             onClick={() => decreaseItem(obj)}
@@ -152,7 +152,7 @@ const Courses = () => {
           </div>
         </div>
         <div className="col-span-1  md:mt-0 pd:mt-10 "></div>
-        <div className="md:col-span-2 pd:col-span-full lg:flex  pd:block">
+        <div className="md:col-span-2 pd:col-span-full lg:block  pd:block">
           <div className=" bg-[#E5E7EB] pt-2 pb-6 px-3 rounded-lg ">
             <div>
               <div className="flex relative justify-between">

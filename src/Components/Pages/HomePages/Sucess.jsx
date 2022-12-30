@@ -39,7 +39,7 @@ const Sucess = () => {
       <h1 className="text-3xl text-center text-mainColor capitalize pb-10">
         some of our students sucess stories
       </h1>
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 pd:grid-cols-1  md:pl-2 pd:pl-20">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 pd:grid-cols-1  md:pl-2 pd:pl-12">
         {data.map((val, i) => {
           return (
             <div
