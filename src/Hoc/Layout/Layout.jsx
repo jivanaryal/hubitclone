@@ -5,29 +5,9 @@ import Sidebar from "../../Components/Navigation/Sidebar";
 
 const Layout = ({ children }) => {
   const [show, setShow] = useState(false);
-  // const [size, setSize] = useState(window.innerWidth);
 
-  // const cleanup = () => {
-  //   setSize(window.innerWidth);
-  //   if (size <= 990) {
-  //     setShow(false);
-  //   } else if (size > 990) {
-  //     setShow(true);
-  //   }
-  // };
-  // useEffect(() => {
-  //   window.addEventListener("resize", cleanup);
-  //   return () => {
-  //     window.removeEventListener("resize", cleanup);
-  //   };
-  // });
   return (
     <div>
-      {/* {show ? (
-        <Toolbar show={show} setShow={setShow} />
-      ) : (
-        <Sidebar show={show} setShow={setShow} />
-      )} */}
       <Toolbar
         show={show}
         setShow={() =>
@@ -45,7 +25,7 @@ const Layout = ({ children }) => {
         }
       />
 
-      <div className="mt-28">{children}</div>
+      <div className=" pd:mt-4">{children}</div>
     </div>
   );
 };

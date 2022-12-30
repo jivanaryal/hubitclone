@@ -117,17 +117,17 @@ const Courses = () => {
         </div>
       </div>
 
-      <div className="flex  w-full items-center flex-col gap-2 mt-32">
-        <h1 className="font-bold text-mainColor text-3xl">
+      <div className="flex  w-full  flex-col gap-2 mt-32 px-4">
+        <h1 className="font-bold text-mainColor text-3xl text-center">
           What Our Student Say About Us
         </h1>
-        <p className="text-base">
+        <p className="text-base font-light  text-gray-700 text-center ">
           Here some testimonials about the experience of our students in HUB IT
           TRAINING
         </p>
       </div>
       <div className="w-11/12 mx-auto grid grid-cols-5 mt-20 pb-20">
-        <div className="col-span-2 flex gap-10">
+        <div className="md:col-span-2 pd:col-span-full  lg:flex  pd:block ">
           <AiFillLeftCircle
             className="text-5xl text-mainColor"
             onClick={() => decreaseItem(obj)}
@@ -151,8 +151,8 @@ const Courses = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-1"></div>
-        <div className="col-span-2 flex gap-10">
+        <div className="col-span-1  md:mt-0 pd:mt-10 "></div>
+        <div className="md:col-span-2 pd:col-span-full lg:flex  pd:block">
           <div className=" bg-[#E5E7EB] pt-2 pb-6 px-3 rounded-lg ">
             <div>
               <div className="flex relative justify-between">

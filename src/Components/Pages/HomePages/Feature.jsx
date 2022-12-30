@@ -27,7 +27,7 @@ const Feature = () => {
           return (
             <div
               key={i}
-              className="border-b-4 lg:border-b-transparent pd:border-b-gray-500 mr-2 pd:border-b-[1px] pd:hover:border-b-[2px]  lg:border-r-2   pr-6 pl-5 lg:hover:border-b-4 hover:border-b-mainColor delay-100 duration-700 transition-all pb-2  ">
+              className="border-b-4 pt-4 lg:border-b-transparent pd:border-b-gray-500 mr-2 pd:border-b-[1px] pd:hover:border-b-[2px]  lg:border-r-2   pr-6 pl-5 lg:hover:border-b-4 hover:border-b-mainColor delay-100 duration-700 transition-all pb-2  ">
               <div className="flex gap-2">
                 <val.img className="text-5xl text-mainColor" />
                 <p className="font-bold text-2xl justify-start ">{val.title}</p>
