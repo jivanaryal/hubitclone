@@ -62,21 +62,58 @@ const obj = [
   },
 ];
 
+const array = [
+  {
+    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    heading: "Narayan Sir",
+    person: "teacher",
+    information:
+      "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
+  },
+  {
+    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    heading: "jivan Sir",
+    person: "teacher",
+    information:
+      "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
+  },
+  {
+    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    heading: "manoj Sir",
+    person: "teacher",
+    information:
+      "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
+  },
+  {
+    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    heading: "hello Sir",
+    person: "teacher",
+    information:
+      "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
+  },
+];
+
 const Courses = () => {
   const [index, setIndex] = useState(0);
+  const [secondIndex, setSecondIndex] = useState(1);
   const { img, title, author, info } = obj[index];
+  const { path, heading, person, information } = array[secondIndex];
 
-  const increaseItem = (props) => {
-    if (index >= props.length - 1) {
+  const increaseItem = () => {
+    if (index >= obj.length - 1 && secondIndex >= array.length - 1) {
       setIndex(0);
+      setSecondIndex(0);
     } else {
+      setSecondIndex(secondIndex + 1);
       setIndex(index + 1);
     }
   };
-  const decreaseItem = (props) => {
-    if (index <= 0) {
-      setIndex(props.length - 1);
+  const decreaseItem = () => {
+    if (index <= 0 && secondIndex <= 0) {
+      setIndex(obj.length - 1);
+      setSecondIndex(array.length - 1);
     } else {
+      setSecondIndex(secondIndex - 1);
       setIndex(index - 1);
     }
   };
@@ -130,7 +167,7 @@ const Courses = () => {
         <div className="md:col-span-2 pd:col-span-full  lg:block  pd:block ">
           <AiFillLeftCircle
             className="text-5xl text-mainColor"
-            onClick={() => decreaseItem(obj)}
+            onClick={() => decreaseItem()}
           />
           <div className=" bg-[#E5E7EB] pt-2 pb-6 px-3 rounded-lg">
             <div>
@@ -157,23 +194,23 @@ const Courses = () => {
             <div>
               <div className="flex relative justify-between">
                 <img
-                  src={img}
+                  src={path}
                   alt=""
                   className="w-16 absolute top-5 left-[-30px] border rounded-full h-16 "
                 />
               </div>
               <div className="ml-10">
-                <p>{title}</p>
-                <p>{author}</p>
+                <p>{heading}</p>
+                <p>{person}</p>
                 <p className="h-24 overflow-scroll information bg-[#E5E7EB]">
-                  {info}
+                  {information}
                 </p>
               </div>
             </div>
           </div>
           <AiFillRightCircle
             className="text-5xl text-mainColor"
-            onClick={() => increaseItem(obj)}
+            onClick={() => increaseItem()}
           />
         </div>
       </div>

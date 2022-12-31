@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         }
       />
 
-      <div className=" md:mt-20 pd:mt-8">{children}</div>
+      <div className=" md:mt-20  pd:mt-8">{children}</div>
     </div>
   );
 };
