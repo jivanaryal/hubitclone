@@ -7,6 +7,7 @@ import Placements from "./Placements";
 import Sucess from "./Sucess";
 import Welcome from "./Welcome";
 import Number from "./Number";
+import Footer from "./Footer";
 const index = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const index = () => {
       <Sucess />
       <FIndUs />
       <Number />
+      <Footer />
     </div>
   );
 };

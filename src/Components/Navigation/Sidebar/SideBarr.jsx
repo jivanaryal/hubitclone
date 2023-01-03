@@ -18,7 +18,7 @@ function Sidebar({ show, setShow }) {
                 <div key={i}>
                   <Link to={{ pathname: val.path }}>
                     <p
-                      className={`text-xl capitalize border-2 text-white border-transparent rounded-md py-1 hover:bg-white hover:text-black text-center w-10/12 mx-auto mt-6 ${
+                      className={`text-xl capitalize border-2 text-white border-transparent rounded-md py-1 hover:bg-white hover:text-black hover: text-center w-10/12 mx-auto mt-6 ${
                         location.pathname === val.path
                           ? "bg-white text-black"
                           : ""
