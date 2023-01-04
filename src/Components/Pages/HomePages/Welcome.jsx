@@ -35,7 +35,7 @@ const Welcome = () => {
         <div className="col-span-2 grid gap-4 grid-cols-4 bg-red-600  lg:w-full ">
           <div className="md:col-span-2 pd:col-span-4   relative">
             <img
-              src="https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportal.2193f6b1.jpg&w=1920&q=75"
+              src="https://hubit.com.np/_next/image?url=%2Fimages%2Fportal.jpg&w=1920&q=75"
               alt=""
               className="opacity-80 md:w-full h-full"
             />

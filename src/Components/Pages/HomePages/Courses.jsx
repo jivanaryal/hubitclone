@@ -37,25 +37,25 @@ const data = [
 
 const obj = [
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Hari Sir",
     author: "teacher",
     info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Manoj Sir",
     author: "teacher",
     info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Himal Sir",
     author: "teacher",
     info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Narayan Sir",
     author: "teacher",
     info: "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
@@ -64,28 +64,28 @@ const obj = [
 
 const array = [
   {
-    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    path: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     heading: "Narayan Sir",
     person: "teacher",
     information:
       "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
-    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    path: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     heading: "jivan Sir",
     person: "teacher",
     information:
       "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
-    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    path: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     heading: "manoj Sir",
     person: "teacher",
     information:
       "ting and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever .",
   },
   {
-    path: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    path: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     heading: "hello Sir",
     person: "teacher",
     information:

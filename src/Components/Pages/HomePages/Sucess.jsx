@@ -2,31 +2,31 @@ import React from "react";
 
 const data = [
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Placement At Hub It Pvt.Ltd",
     author: "jivan aryal",
     job: "web design",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Placement At Hub It Pvt.Ltd",
     author: "jivan aryal",
     job: "web design",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Placement At Hub It Pvt.Ltd",
     author: "jivan aryal",
     job: "web design",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Placement At Hub It Pvt.Ltd",
     author: "jivan aryal",
     job: "web design",
   },
   {
-    img: "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fjapan.4627b6f7.jpg&w=1920&q=75",
+    img: "https://hubit.com.np/_next/image?url=%2Fimages%2Fjapan.jpg&w=1920&q=75",
     title: "Placement At Hub It Pvt.Ltd",
     author: "jivan aryal",
     job: "web design",
